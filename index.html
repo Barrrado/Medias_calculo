@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Medias</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee&family=Permanent+Marker&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+<body id="conteinerbody">
+    <div id="estilovidro">
+    <header>
+        <img id="capelo" src="./logo.png" alt="Capelo">
+        <h1>Calculadoras de medias</h1>
+    </header>
+    <form id="form1">
+        <input id="Atividades1"    type="text" required placeholder="Nome da Atividade"/>
+        <input id="nota1"  type="number" required max="10" min="0" placeholder="Nota"/>
+        <input  id="Adicionar" type="submit" value="Adicionar +" ></input>
+    </form>
+    <table>
+        <thead>
+            <tr>
+                <th style="padding-left: 10px;"  >Nome da atividade</th>
+                <th>Nota</th>
+                <th style="padding-right: 20px;" >Resultado</th>
+            </tr>
+        </thead>
+       
+        <tbody id="tabela1">
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Media Final </td>
+                <td id="MediaFim"></td>
+                <td ><p id="MensagemFinal"></p></td>
+            </tr>
+        </tfoot>
+    </table>   
+</div> 
+</body>
+<script src="main.js"></script>
+</html>
