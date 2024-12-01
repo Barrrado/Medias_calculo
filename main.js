@@ -48,7 +48,14 @@ function MediaFinal() {
     document.getElementById("MensagemFinal").style.backgroundColor= '#dd0f0f';
    }
 }}
-
+function Limpar(){
+   document.getElementById("nota1").value = ''
+    document.getElementById("Atividades1").value =''
+    document.getElementById('tabela1').innerHTML = ''
+    document.getElementById("MediaFim").innerHTML = ''
+    document.getElementById("MensagemFinal").innerHTML = ''
+    document.getElementById("MensagemFinal").style.backgroundColor = ''
+}
 //notas.addEventListener("keyup", function(e){
 //    console.log(e.target.value)
 //})
