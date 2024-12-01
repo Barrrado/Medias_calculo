@@ -37,7 +37,7 @@ function MediaFinal() {
       somadasnotas += notas2[i];
     }
     const media = somadasnotas/notas2.length;
-    document.getElementById("MediaFim").innerHTML = `${media}.toFixed(2);`
+    document.getElementById("MediaFim").innerHTML = `${media.toFixed(2)}`;
    if (media >= Media2){
     document.getElementById("MensagemFinal").innerHTML = "Aprovado"
     document.getElementById("MensagemFinal").style.color = '#f5f5dc';
