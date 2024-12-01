@@ -21,7 +21,7 @@ function adicionarLinhas(){
     let linha = `<tr>`;
     linha +=  `<td>${atividade.value}</td>`;
     linha +=  `<td>${notas.value}</td>`;
-    linha +=  `<td>${notas.value >= Media2 ? `<img src="./Aprovado.png" style="width: 20PX;">` : `<img src="./reprovado.png" style="width: 20PX;" `}</td>`;
+    linha +=  `<td>${notas.value >= Media2 ? `<img src="./aprovado.png" style="width: 20PX;">` : `<img src="./reprovado.png" style="width: 20PX;" `}</td>`;
     linhas += linha;
     
      document.getElementById('tabela1').innerHTML = linhas;
